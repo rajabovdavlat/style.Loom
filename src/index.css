@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    @apply min-h-screen;
+  }
+  body {
+    @apply min-h-screen;
+    font-family: "Roboto Variable", sans-serif;
+  }
+  #root {
+    @apply min-h-screen flex flex-col;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply w-full max-w-[1600px] mx-auto px-5;
+  }
+}
+
+@theme {
+  --color-title: #fff;
+  --color-desc: #81807e;
+  --color-dark: #262626;
+  --color-gray: #b3b3b2;
+  --color-btn: #ab9c87;
+}
+main {
+  @apply flex-1;
+}

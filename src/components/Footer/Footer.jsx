@@ -25,7 +25,7 @@ const Footer = () => {
         <div className='container '>
           {/* footer 1 */}
 
-          <div className='flexJustifyItems py-25'>
+          <div className='flexJustifyItems lg:flex-row flex-col py-25'>
             <div>
               <Link className='w-full max-w-[788px]' to='/'>
                 <img src={svgs.LogoFooter} alt='LogoFooter' />
@@ -53,7 +53,7 @@ const Footer = () => {
 
           {/* footer 2 */}
 
-          <div className='py-[96px] flexJustifyItems gap-[80px] borBottom borTop'>
+          <div className='py-[96px] flex flex-col md:flex-row items-center md:items-start justify-center gap-10 lg:gap-[80px] borBottom borTop text-center md:text-left'>
             <div className='flex flex-col gap-6'>
               <Link className='text-title text-xl font-bol' to='/'>
                 Home
@@ -109,20 +109,23 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* email */}
+            {/* email input */}
 
-            <div className='flex flex-col gap-3'>
+            <div className='flex flex-col justify-between gap-3'>
               <h3 className='text-title text-xl font-bol'>
                 Subscribe to Newsletter
               </h3>
-              <input
-                className='bg-desc2 pl-[24px] pr-20 py-4 rounded-lg text-title outline-none'
-                type='email'
-                placeholder='Your Email'
-              />
-              <button className='absolute right-10 top-333  text-title hover:text-black'>
-                <FontAwesomeIcon className="text-" icon={faArrowRight} />
-              </button>
+
+              <div className='relative w-full'>
+                <input
+                  className='bg-desc2 w-full pl-6 pr-14 py-4 rounded-lg text-title outline-none'
+                  type='email'
+                  placeholder='Your Email'
+                />
+                <button className='absolute top-1/2 right-4 transform -translate-y-1/2 text-title hover:text-black'>
+                  <FontAwesomeIcon icon={faArrowRight} />
+                </button>
+              </div>
             </div>
           </div>
         </div>

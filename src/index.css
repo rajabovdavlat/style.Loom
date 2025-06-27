@@ -17,6 +17,18 @@
   .container {
     @apply w-full max-w-[1600px] mx-auto px-5;
   }
+ .borBottom {
+  @apply border-b-2 border-dashed border-desc;
+ }
+ .borTop{
+  @apply  border-t-2 border-dashed  border-desc;
+ }
+ .flexJustifyItems {
+  @apply  flex justify-between items-center;
+ }
+ .desc2 {
+  @apply text-desc2 text-lg hover:text-title;
+ }
 }
 
 @theme {
@@ -25,6 +37,7 @@
   --color-dark: #262626;
   --color-gray: #b3b3b2;
   --color-btn: #ab9c87;
+  --color-desc2: #676665;
 }
 main {
   @apply flex-1;

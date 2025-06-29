@@ -18,7 +18,6 @@ const Footer = () => {
   const [isTestimonialsOpen, setIsTestimonialsOpen] = useState(false);
   const [isFaqOpen, setIsFaqOpen] = useState(false);
 
-
   return (
     <>
       <footer className=' bg-dark borTop'>
@@ -44,7 +43,7 @@ const Footer = () => {
                   <img
                     src={item.icon}
                     alt={item.name}
-                    className='w-[66px] h-[66px]'
+                    className='w-[66px] h-[66px]   transition-all duration-200 ease-in-out hover:scale-110  active:scale-95 cursor-pointer'
                   />
                 </a>
               ))}

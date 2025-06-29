@@ -13,13 +13,13 @@ const Header = () => {
         <div className='container flexJustifyItems py-5.5'>
           <nav className='hidden md:flex flex gap-3'>
             <Link
-              className='text-gray hover:text-title border-dashed border text-lg hover:bg-black/30 rounded-lg py-3 px-5'
+              className='text-gray hover:text-title active:scale-95 transition transform border-dashed border text-lg hover:bg-black/30 rounded-lg py-3 px-5'
               to='/'
             >
               Home
             </Link>
             <Link
-              className='text-gray hover:text-title text-lg border-dashed border text-lg hover:bg-black/30 rounded-lg py-3 px-5'
+              className='text-gray hover:text-title active:scale-95 transition transform text-lg border-dashed border text-lg hover:bg-black/30 rounded-lg py-3 px-5'
               to='/products'
             >
               Products
@@ -29,15 +29,15 @@ const Header = () => {
           <Link className='text-title text-4xl font-bold' to='/'>
             Style.Loom
           </Link>
-          <div className='flex items-center gap-3'>
+          <div className='flex items-center gap-3 '>
             <Link to='/basket'>
               <FontAwesomeIcon
-                className=' text-title text-xl border-dashed border  hover:bg-black/30 rounded-lg py-3 px-5'
+                className=' text-title text-xl active:scale-95 transition transform border-dashed border  hover:bg-black/30 rounded-lg py-3 px-5'
                 icon={faShoppingCart}
               />
             </Link>
             <Link
-              className='hidden md:block bg-btn rounded-lg py-3 px-5'
+              className='hidden md:block bg-btn rounded-lg py-3 px-5 hover:bg-gray   active:scale-95 transition transform'
               to='/contacts'
             >
               Contacts
@@ -59,7 +59,11 @@ const Header = () => {
 
       {isOpen && (
         <div className='fixed top-0 left-0 w-full h-full bg-black/90 text-white flex flex-col items-center justify-center gap-8 z-50 md:hidden'>
-          <Link onClick={() => setIsOpen(false)} to='/' className='text-2xl hover:text-desc2'>
+          <Link
+            onClick={() => setIsOpen(false)}
+            to='/'
+            className='text-2xl hover:text-desc2'
+          >
             Home
           </Link>
           <Link

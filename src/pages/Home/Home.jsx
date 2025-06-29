@@ -1,9 +1,11 @@
-import React from 'react'
+import HeroSection from "./HeroSection/HeroSection"
 
 
 const Home = () => {
   return (
-    <div className='bg-dark text-title h-screen '>Home</div>
+    <div className='bg-dark text-title '>
+      <HeroSection />
+    </div>
   )
 }
 

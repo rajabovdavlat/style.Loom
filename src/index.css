@@ -23,11 +23,17 @@
  .borTop{
   @apply  border-t-2 border-dashed  border-desc;
  }
+ .btnFiltr{
+  @apply px-5 py-2 border-2 border-dashed  border-desc text-gray rounded-lg hover:bg-black/30 hover:text-title cursor-pointer transition-all duration-200 active:scale-95;
+ }
  .flexJustifyItems {
   @apply  flex justify-between items-center;
  }
  .desc2 {
   @apply text-desc2 text-lg hover:text-title;
+ }
+ .arrowBtn {
+  @apply flex gap-[4px] font-semibold items-center py-[18px] pr-[49px] pl-[18px] bg-[#404040]  rounded-xl cursor-pointer border-2 border-dashed border-desc  text-gray hover:text-title hover:bg-black/80;
  }
 }
 

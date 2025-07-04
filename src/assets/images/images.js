@@ -4,6 +4,18 @@ import Instagram from "./svg/inst.svg"
 import ball from './svg/ball.svg'
 import twitter from './svg/twitter.svg'
 import behance from './svg/behance.svg'
+import IconOne from './svg/IconOne.svg'
+import IconTwo from "./svg/IconTwo.svg";
+import IconThree from "./svg/IconThree.svg";
+import IconFour from "./svg/IconFour.svg";
+import IconFive from "./svg/IconFive.svg";
+import IconSix from "./svg/IconSix.svg";
+import zvezda from "./svg/zvezda.svg"
+import warik from "./svg/warik.svg"
+import maska from "./svg/maska.svg"
+import kubog from "./svg/kubog.svg"
+import palka from './svg/palka.svg'
+import solnse from "./svg/solnse.svg"
 
 
 
@@ -13,6 +25,17 @@ export const svgs = {
   Instagram,
   ball,
   twitter,
-  behance
-  
+  behance,
+  IconOne,
+  IconTwo,
+  IconThree,
+  IconFour,
+  IconFive,
+  IconSix,
+  zvezda,
+  warik,
+  maska,
+  kubog,
+  palka,
+  solnse,
 };

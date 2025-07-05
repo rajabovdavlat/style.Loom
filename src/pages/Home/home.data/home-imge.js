@@ -1,8 +1,7 @@
 // PNG
-import heroImg from "../../assets/images/png/home-img.png"
+import heroImg from "../../../assets/images/png/home-img.png";
 // SVG
-import heroArrow from "../../assets/images/svg/hero-arrow.svg"
-
+import heroArrow from "../../../assets/images/svg/hero-arrow.svg";
 
 
 // png Hero

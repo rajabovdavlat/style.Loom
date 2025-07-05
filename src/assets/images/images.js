@@ -16,6 +16,7 @@ import maska from "./svg/maska.svg"
 import kubog from "./svg/kubog.svg"
 import palka from './svg/palka.svg'
 import solnse from "./svg/solnse.svg"
+import AbstractFshSect from "./svg/AbstractFshSect.svg"
 
 
 
@@ -38,4 +39,5 @@ export const svgs = {
   kubog,
   palka,
   solnse,
+  AbstractFshSect,
 };

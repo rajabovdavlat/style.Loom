@@ -20,7 +20,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className='bg-dark borTop'>
+      <footer className='bg-dark borTop borBottom'>
         <div className='container '>
           {/* footer 1 */}
 
@@ -52,7 +52,7 @@ const Footer = () => {
 
           {/* footer 2 */}
 
-          <div className='py-[96px] flex flex-col md:flex-row items-center md:items-start justify-center gap-10 lg:gap-[80px] borBottom borTop text-center md:text-left'>
+          <div className='py-[96px] flex flex-col md:flex-row items-center md:items-start justify-center gap-10 lg:gap-[80px]  borTop text-center md:text-left'>
             <div className='flex flex-col gap-6'>
               <Link className='text-title text-xl font-bol' to='/'>
                 Home

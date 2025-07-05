@@ -1,5 +1,5 @@
-import { heroArrowImage, homeImages } from "../home-imge";
-import { heroStats } from "../home.stats"; // путь от компонента
+import { heroArrowImage, homeImages } from "../home.data/home-imge";
+import { heroStats } from "../home.data/home.stats"; 
 
 const categories = ["All", "Mens", "Womens", "Kids"];
 
@@ -47,7 +47,7 @@ const HeroSection = () => {
               ))}
             </div>
             <div className='pb-[183px]'>
-              <h2 className='w-full max-w-[638px] text-6xl pb-[30px]'>
+              <h2 className='w-full max-w-[638px] font-semibold text-6xl pb-[30px]'>
                 Elevate Your Style with StyleLoom
               </h2>
               <p className='w-full max-w-[638px] text-lg text-gray'>
@@ -60,11 +60,11 @@ const HeroSection = () => {
 
           {/* Статистика hero */}
 
-          <div className='grid grid-cols md:grid-cols-2 container select-none '>
+          <div className='grid grid-cols md:grid-cols-2 gap-4 pt-2  container select-none '>
             {heroStats.map((item, i) => (
               <div
                 key={i}
-                className='text-center border-2 border-dashed  rounded-xl py-20  border-desc'
+                className='text-center border-2 border-dashed bg-black/20  rounded-xl py-20  border-desc'
               >
                 <h1 className='text-6xl font-bold text-title transform transition-transform duration-300 hover:scale-115'>
                   {item.number}

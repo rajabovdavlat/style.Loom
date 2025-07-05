@@ -9,10 +9,10 @@
     @apply w-full max-w-[1600px] mx-auto px-5;
   }
  .borBottom {
-  @apply border-b-2 border-dashed border-desc border-white/60 shadow-xl;
+  @apply border-b-2 border-dashed border-desc border-white/60;
  }
  .borTop{
-  @apply  border-t-2 border-dashed  border-desc border-white/60 shadow-xl;
+  @apply  border-t-2 border-dashed  border-desc border-white/60 ;
  }
  .btnFiltr{
   @apply px-5 py-2 border-2 border-dashed hover:border-title  border-desc text-gray rounded-lg hover:bg-black/30 hover:text-title cursor-pointer transition-all duration-200 active:scale-95 drop-shadow-xl/50    ease-in-out hover:scale-110;
@@ -44,6 +44,26 @@
   animation: dash-blink 2s infinite;
 }
 
+
+
+/* анимация мигания для svg  */
+
+
+@keyframes pulseScaleGlow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.2));
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.9;
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.4));
+  }
+}
+.auto-pulse-glow {
+  animation: pulseScaleGlow 3s ease-in-out infinite;
+}
 @theme {
   --color-title: #fff;
   --color-desc: #81807e;

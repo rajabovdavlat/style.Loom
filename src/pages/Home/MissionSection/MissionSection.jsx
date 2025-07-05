@@ -1,4 +1,4 @@
-import { MissionData } from "../homeMission";
+import { MissionData } from ".././home.data/homeMission";
 import { svgs } from "../../../assets/images/images";
 
 const MissionSection = () => {
@@ -6,7 +6,7 @@ const MissionSection = () => {
     <div className='container py-[110px] borTop'>
       {/* title */}
       <div className='pl-8'>
-        <h2 className='w-full  text-6xl pb-[30px] select-none'>
+        <h2 className='w-full font-semibold  text-6xl pb-[30px] select-none'>
           Crafting Trends, Inspiring Confidence
         </h2>
         <p className='w-full max-w-[638px] text-lg text-gray select-none'>

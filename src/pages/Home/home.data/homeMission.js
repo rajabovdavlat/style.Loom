@@ -1,7 +1,4 @@
-import { svgs } from "../../assets/images/images.js";
-
-
-
+import { svgs } from "../../../assets/images/images.js";
 
 export const MissionData = [
   {

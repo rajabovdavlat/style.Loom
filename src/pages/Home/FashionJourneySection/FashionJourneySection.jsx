@@ -27,7 +27,7 @@ const FashionJourneySection = () => {
         {FashhionData.map((feature, index) => (
           <div
             key={index}
-            className='border-dashed border p-6 sm:p-8 lg:p-[50px] rounded-lg bg-black/20 transition-all duration-200 active:scale-95 border-blink drop-shadow-xl/50 ease-in-out hover:scale-105 hover:bg-black/30'
+            className='border-dashed hover:border-none border p-6 sm:p-8 lg:p-[50px] rounded-lg bg-black/20 transition-all duration-200  border-blink drop-shadow-xl/50 ease-in-out hover:scale-105 hover:bg-black/30'
           >
             <span className='text-lg md:text-xl font-semibold text-desc2 mb-4 block'>
               {feature.Number}

@@ -4,6 +4,8 @@ import heroImg from "../../../assets/images/png/home-img.png";
 import heroArrow from "../../../assets/images/svg/hero-arrow.svg";
 
 
+
+
 // png Hero
 export const homeImages = {
     heroImg,
@@ -12,5 +14,6 @@ export const homeImages = {
 // svg Hero
 
 export const heroArrowImage = {
-    heroArrow
+    heroArrow,
+    
 }

@@ -3,6 +3,7 @@ import MissionSection from "./MissionSection/MissionSection";
 import FashionJourneySection from "./FashionJourneySection/FashionJourneySection"
 import LatestCollection from "./LatestCollection/LatestCollection";
 import ProductFilter from "./LatestCollection/ProductFilter";
+import TestimonialSection from "./TestimonialSection/TestimonialSection";
 
 
 
@@ -12,7 +13,8 @@ const Home = () => {
       <HeroSection />
       <MissionSection />
       <FashionJourneySection />
-      <LatestCollection/>
+      <LatestCollection />
+      <TestimonialSection />
     </div>
   );
 }

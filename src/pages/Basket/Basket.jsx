@@ -7,7 +7,7 @@ const Basket = () => {
   return (
     <div className="bg-dark">
     <div className='container py-16'>
-      <h2 className='text-3xl font-semibold mb-8'>Your Shopping Cart</h2>
+      <h2 className='text-6xl text-center text-title  pb-10  font-bold mb-8'>Your Shopping Cart</h2>
 
       {cart.length === 0 ? (
         <p className='text-gray-400'>Your cart is empty.</p>
@@ -16,22 +16,22 @@ const Basket = () => {
           {cart.map((product) => (
             <div
               key={product.id}
-              className='bg-[#1a1a1a] p-4 rounded-lg border border-gray-700'
+              className='bg-black/30 rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow duration-300 border border-dashed hover:scale-105 transform transition-transform'
             >
               <img
                 src={product.image}
                 alt={product.title}
                 className='w-full h-[200px] object-contain mb-4'
               />
-              <h3 className='text-white text-lg mb-2 line-clamp-2'>
+              <h3 className='text-title text-xl font-bold mb-2 line-clamp-2'>
                 {product.title}
               </h3>
-              <p className='text-gray-300 mb-4 font-semibold'>
+              <p className='text-title mb-4 font-bold text-3xl'>
                 ${product.price}
               </p>
               <button
                 onClick={() => removeFromCart(product.id)}
-                className='text-sm text-red-400 hover:underline'
+                className='text-lg bg-title font-bold py-1 px-1 rounded hover:text-title hover:bg-red-400 text-red-400 '
               >
                 Dalete
               </button>

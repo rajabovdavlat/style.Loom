@@ -33,6 +33,8 @@ import otziv from "./svg/otziv.svg";
 import bgotziv from "./svg/bgotziv.svg"
 // twit svg
 import twit from "./svg/twit.svg"
+// Answer bg img
+import AnswerBgImg from "./svg/AnswerBgImg.svg"
 
 
 
@@ -69,4 +71,6 @@ export const svgs = {
   otziv,
   bgotziv,
   twit,
+  // AnswerbgImg
+  AnswerBgImg,
 };

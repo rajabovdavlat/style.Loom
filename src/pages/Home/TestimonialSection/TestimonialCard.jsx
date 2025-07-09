@@ -11,7 +11,7 @@ const TestimonialCard = ({ name, avatar, location, text, rating }) => {
             <h3 className='font-bold'>{name}</h3>
             <p className='text-sm text-gray-300'>{location}</p>
           </div>
-          <img src={svgs.twit} alt='' />
+          <img src={svgs.twit} alt='twiter' />
         </div>
       </div>
 

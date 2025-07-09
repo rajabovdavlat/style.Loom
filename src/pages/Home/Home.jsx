@@ -4,6 +4,7 @@ import FashionJourneySection from "./FashionJourneySection/FashionJourneySection
 import LatestCollection from "./LatestCollection/LatestCollection";
 import ProductFilter from "./LatestCollection/ProductFilter";
 import TestimonialSection from "./TestimonialSection/TestimonialSection";
+import AnswersSection from "./Answers/AnswersSection";
 
 
 
@@ -15,6 +16,7 @@ const Home = () => {
       <FashionJourneySection />
       <LatestCollection />
       <TestimonialSection />
+      <AnswersSection />
     </div>
   );
 }

@@ -15,7 +15,8 @@
   @apply  border-t-2 border-dashed  border-desc border-white/60 ;
  }
  .btnFiltr{
-  @apply px-5 py-2 border-2 border-dashed hover:border-title  border-desc text-gray rounded-lg hover:bg-black/30 hover:text-title cursor-pointer transition-all duration-200 active:scale-95 drop-shadow-xl/50    ease-in-out hover:scale-110;
+  @apply px-5 py-2 sm:py-1.5 md:px-4 md:py-2
+      text-[10px] sm:text-sm md:text-base border-2 border-dashed hover:border-title  border-desc text-gray rounded-lg hover:bg-black/30 hover:text-title cursor-pointer transition-all duration-200 active:scale-95 drop-shadow-xl/50    ease-in-out hover:scale-110;
  }
  .flexJustifyItems {
   @apply  flex justify-between items-center;

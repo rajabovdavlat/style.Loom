@@ -16,18 +16,19 @@ const HeroSection = () => {
           <div className='absolute -bottom-[6px] sm:-bottom-[16px] md:-bottom-[24px] left-1/2 transform -translate-x-1/2'>
             <button
               className='
-    flex items-center gap-1
-     text-[9px] sm:text-xs md:text-sm
-    bg-[#404040] text-title rounded-xl cursor-pointer
-    transition-transform duration-200 ease-in-out
-    hover:scale-105 active:scale-90
-  '
+      flex items-center gap-1
+      px-2 py-1 sm:px-3 sm:py-1.5 md:px-4 md:py-2
+      text-[9px] sm:text-xs md:text-sm lg:text-base
+      bg-[#404040] text-title rounded-xl cursor-pointer
+      transition-transform duration-200 ease-in-out
+      hover:scale-105 active:scale-90
+    '
             >
               Shop Now
               <img
                 src={heroArrowImage.heroArrow}
                 alt='arrow'
-                className='w-2.5 h-2.5 sm:w-3 sm:h-3 md:w-4 md:h-4'
+                className='w-2.5 h-2.5 sm:w-3 sm:h-3 md:w-4 md:h-4 lg:w-5 lg:h-5'
               />
             </button>
           </div>

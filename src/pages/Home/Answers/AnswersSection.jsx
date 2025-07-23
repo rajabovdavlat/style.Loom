@@ -7,16 +7,16 @@ const AnswersSection = () => {
     <section className='container select-none pb-[100px]'>
       <div className='flex justify-between items-center'>
         <div className='mb-15'>
-          <h2 className='text-title text-6xl mb-3 font-bold '>
+          <h2 className='w-full font-semibold text-4xl sm:text-5xl md:text-6xl   pb-[30px] select-none '>
             Have Questions? We Have Answers.
           </h2>
-          <p className='text-desc2 text-lg font-semibold'>
+          <p className='w-full max-w-[638px] text-base sm:text-lg text-gray select-none'>
             Ease into the world of StyleLoom with clarity. Our FAQs cover a
             spectrum of topics.
           </p>
         </div>
         <div className='auto-pulse-glow'>
-          <img src={svgs.AnswerBgImg} alt='AnswersbgImg' />
+          <img src={svgs.AnswerBgImg} alt='' className="auto-pulse-glow hidden md:block select-none auto-pulse-glow h-auto object-contain" />
         </div>
       </div>
       <div className='grid mt-3 gap-8 md:grid-cols-1 lg:grid-cols-2 '>

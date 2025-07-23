@@ -1,5 +1,5 @@
 import { heroArrowImage, homeImages } from "../home.data/home-imge";
-import { heroStats } from "../home.data/home.stats"; 
+import { heroStats } from "../home.data/home.stats";
 
 const categories = ["All", "Mens", "Womens", "Kids"];
 
@@ -13,13 +13,11 @@ const HeroSection = () => {
             alt='Рекламный баннер'
             className='w-full h-full object-cover'
           />
-          <div className='absolute -bottom-6 left-1/2 transform -translate-x-1/2'>
+          <div className='absolute -bottom-[6px] sm:-bottom-[16px] md:-bottom-[24px] left-1/2 transform -translate-x-1/2'>
             <button
               className='
     flex items-center gap-1
-    px-3 py-1 text-xs
-    sm:px-4 sm:py-2 sm:text-sm
-    md:px-6 md:py-3 md:text-base
+     text-[9px] sm:text-xs md:text-sm
     bg-[#404040] text-title rounded-xl cursor-pointer
     transition-transform duration-200 ease-in-out
     hover:scale-105 active:scale-90
@@ -29,7 +27,7 @@ const HeroSection = () => {
               <img
                 src={heroArrowImage.heroArrow}
                 alt='arrow'
-                className='w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5'
+                className='w-2.5 h-2.5 sm:w-3 sm:h-3 md:w-4 md:h-4'
               />
             </button>
           </div>

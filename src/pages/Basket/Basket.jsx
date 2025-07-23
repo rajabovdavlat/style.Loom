@@ -33,7 +33,7 @@ const Basket = () => {
                 onClick={() => removeFromCart(product.id)}
                 className='text-lg bg-title font-bold py-1 px-1 rounded hover:text-title hover:bg-red-400 text-red-400 '
               >
-                Dalete
+                Delete
               </button>
             </div>
           ))}

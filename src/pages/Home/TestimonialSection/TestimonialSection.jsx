@@ -15,7 +15,7 @@ const TestimonialSection = () => {
               At StyleLoom, our customers are the heartbeat of our brand.
             </p>
           </div>
-          <img src={svgs.bgotziv} alt='' className='auto-pulse-glow' />
+          <img src={svgs.bgotziv} alt='' className='auto-pulse-glow  hidden md:block select-none auto-pulse-glow h-auto object-contain' />
         </div>
         <div className='grid mt-3 gap-8 md:grid-cols-2 lg:grid-cols-3'>
           {testimonials.map((item, index) => (

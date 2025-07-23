@@ -25,7 +25,7 @@ const MissionSection = () => {
             <img
               src={feature.bgIcon}
               alt='задний фон img'
-              className='absolute top-1 right-1 '
+              className='absolute top-1 right-1'
             />
             <img src={feature.icon} alt='icon' className='w-14 h-14 mb-4' />
             <h3 className='text-white text-xl font-semibold mb-2'>

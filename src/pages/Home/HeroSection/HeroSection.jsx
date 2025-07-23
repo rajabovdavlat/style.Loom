@@ -40,7 +40,7 @@ const HeroSection = () => {
         <div className='flex-1 order-1'>
           <div className='pt-[80px] pb-[30px] flex gap-4 select-none'>
             {categories.map((cat) => (
-              <button key={cat} className='btnFiltr border-blink'>
+              <button key={cat} className='btnFiltr text-xs sm:text-sm md:text-base px-3 py-1 sm:px-4 sm:py-2 border-blink'>
                 {cat}
               </button>
             ))}

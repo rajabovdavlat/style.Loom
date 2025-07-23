@@ -3,13 +3,13 @@ import { svgs } from "../../../assets/images/images";
 
 const MissionSection = () => {
   return (
-    <div className='container py-[110px] borTop'>
+    <div className='container py-[30px] sm:py-[50px] md:py-[110px] borTop'>
       {/* title */}
       <div className='pl-8'>
-        <h2 className='w-full font-semibold  text-6xl pb-[30px] select-none'>
+        <h2 className='w-full font-semibold text-4xl sm:text-5xl md:text-6xl   pb-[30px] select-none'>
           Crafting Trends, Inspiring Confidence
         </h2>
-        <p className='w-full max-w-[638px] text-lg text-gray select-none'>
+        <p className='w-full max-w-[638px] text-base sm:text-lg text-gray select-none'>
           Explore a world of fashion at StyleLoom, where trends meet
           affordability.
         </p>

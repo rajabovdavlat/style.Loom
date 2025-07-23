@@ -6,17 +6,17 @@ const FashionJourneySection = () => {
     <div className=' container'>
       <div className='flex pb-[80px] justify-between items-center select-none'>
         <div>
-          <h2 className='text-5xl font-bold mb-5.5'>
+          <h2 className='text-4xl sm:text-5xl md:text-6xl font-bold mb-5.5'>
             Navigating the StyleLoom Fashion Journey.
           </h2>
-          <p className='text-desc2 text-lg'>
+          <p className='text-desc2 text-base sm:text-lg'>
             At StyleLoom, we've designed a straightforward shopping experience
             to make fashion accessible.
           </p>
         </div>
         <img
           src={svgs.AbstractFshSect}
-          alt='Катинка с миганием'
+          alt='Картинка с миганием'
           className='hidden md:block select-none auto-pulse-glow h-auto object-contain '
         />
       </div>

@@ -15,9 +15,13 @@ const AnswersSection = () => {
             spectrum of topics.
           </p>
         </div>
-        <div className='auto-pulse-glow'>
-          <img src={svgs.AnswerBgImg} alt='' className="auto-pulse-glow hidden md:block select-none auto-pulse-glow h-auto object-contain" />
-        </div>
+       <div className='auto-pulse-glow hidden md:block'>
+  <img
+    src={svgs.AnswerBgImg}
+    alt=''
+    className="select-none h-auto object-contain"
+  />
+</div>
       </div>
       <div className='grid mt-3 gap-8 md:grid-cols-1 lg:grid-cols-2 '>
         {Answers.map((item, index) => (

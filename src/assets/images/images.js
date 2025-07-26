@@ -37,6 +37,10 @@ import twit from "./svg/twit.svg"
 import AnswerBgImg from "./svg/AnswerBgImg.svg"
 
 
+// Products pages hero
+import prheroimg from "./svg/prheroimg.svg"
+
+
 
 
 // Группируем и экспортируем
@@ -73,4 +77,9 @@ export const svgs = {
   twit,
   // AnswerbgImg
   AnswerBgImg,
+
+  // Products hero img
+ prheroimg,
+
+
 };

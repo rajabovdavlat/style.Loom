@@ -10,6 +10,7 @@ import { HashRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
+    {/* Replaced <BrowserRouter> with <HashRouter> */}
     <HashRouter>
       <CartProvider>
         <App />

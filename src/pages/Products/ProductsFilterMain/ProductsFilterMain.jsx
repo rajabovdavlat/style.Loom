@@ -10,7 +10,7 @@ const categories = [
 
 const ProductFilter = ({ selected, setSelected }) => {
   return (
-    <div className='container flex flex-col-reverse md:flex-row items-center justify-between select-none py-[4px] sm:py-[50px] md:py-[80px] gap-10'>
+    <div className='container flex flex-col-reverse md:flex-row items-center justify-between select-none py-[4px] sm:py-[15px] md:py-[20px] gap-10'>
       <div className='w-full md:w-auto text-center md:text-left'>
         
 

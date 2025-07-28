@@ -4,7 +4,7 @@ import TestimonialCard from "./TestimonialCard";
 
 const TestimonialSection = () => {
   return (
-    <section className='py-20 bg-dark text-white select-none'>
+    <section className='py-3 sm:py-15 md:py-20 bg-dark text-white select-none'>
       <div className='container'>
         <div className='flex items-center justify-between'>
           <div>

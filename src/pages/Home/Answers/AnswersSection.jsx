@@ -4,7 +4,7 @@ import { Answers } from "../home.data/Answers";
 
 const AnswersSection = () => {
   return (
-    <section className='container select-none pb-[100px]'>
+    <section className='container select-none pb-[10px] sm:pb-[60px] md:pb-[100px]'>
       <div className='flex justify-between items-center'>
         <div className='mb-15'>
           <h2 className='w-full font-semibold text-4xl sm:text-5xl md:text-6xl   pb-[30px] select-none '>

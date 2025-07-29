@@ -66,16 +66,16 @@ const Header = () => {
 
       {isOpen && (
         <div className='fixed top-0 left-0 w-full h-full bg-black/90 text-white flex flex-col items-center justify-center gap-8 z-50 md:hidden'>
-          <Link onClick={() => setIsOpen(false)} to='/' className='text-2xl hover:text-desc2'>
+          <Link onClick={() => setIsOpen(false)} to='/' className='text-2xl hover:text-desc2 touch-manipulation'>
             Home
           </Link>
-          <Link onClick={() => setIsOpen(false)} to='/products' className='text-2xl hover:text-desc2'>
+          <Link onClick={() => setIsOpen(false)} to='/products' className='text-2xl hover:text-desc2 touch-manipulation'>
             Products
           </Link>
-          <Link onClick={() => setIsOpen(false)} to='/contacts' className='text-2xl hover:text-desc2'>
+          <Link onClick={() => setIsOpen(false)} to='/contacts' className='text-2xl hover:text-desc2 touch-manipulation'>
             Contacts
           </Link>
-          <button onClick={() => setIsOpen(false)} className='absolute top-5 right-5 text-3xl'>
+          <button onClick={() => setIsOpen(false)} className='absolute top-5 right-5 text-3xl touch-manipulation'>
             ✖
           </button>
         </div>

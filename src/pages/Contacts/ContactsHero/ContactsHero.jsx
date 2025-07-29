@@ -1,5 +1,6 @@
 import React from 'react';
 import { ShoppingCart, PackageCheck } from 'lucide-react';
+import { svgs } from '../../../assets/images/images';
 
 const ContactsHero = () => {
   return (
@@ -34,7 +35,29 @@ const ContactsHero = () => {
             Shop Now
           </button>
         </div>
-      </div>
+          </div>
+          
+         <div className='flex flex-col lg:flex-row items-center gap-6'>
+  <img
+    src={svgs.ProductImg}
+    alt="Product"
+    className='w-full max-w-[988px] object-contain select-none'
+  />
+  
+  <div className='flex flex-col gap-12 w-full max-w-[518px]'>
+    <img
+      src={svgs.ProductImg2}
+      alt="Product"
+      className='w-full object-contain select-none'
+    />
+    <img
+      src={svgs.ProductImg3}
+      alt="Product"
+      className='w-full object-contain select-none'
+    />
+  </div>
+</div>
+
     </div>
   );
 };

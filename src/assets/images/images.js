@@ -40,6 +40,14 @@ import AnswerBgImg from "./svg/AnswerBgImg.svg"
 // Products pages hero
 import prheroimg from "./svg/prheroimg.svg"
 
+// Product img
+
+import ProductImg from "./svg/ProductImg.png"
+import ProductImg2 from "./svg/ProductImg2.png"
+import ProductImg3 from "./svg/ProductImg3.png"
+
+
+
 
 
 
@@ -79,7 +87,11 @@ export const svgs = {
   AnswerBgImg,
 
   // Products hero img
- prheroimg,
+  prheroimg,
+//  ProductImg
+  ProductImg,
+  ProductImg2,
+  ProductImg3,
 
 
 };

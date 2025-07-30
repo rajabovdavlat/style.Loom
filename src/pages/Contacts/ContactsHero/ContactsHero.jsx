@@ -15,7 +15,7 @@ const ContactsHero = () => {
             <p className="text-base sm:text-lg text-gray-400 select-none">
               Fitted bodice, flowing skirt
             </p>
-            <span className="text-green-500 text-sm sm:text-base font-medium bg-green-100 px-3 py-1 rounded-full">
+            <span className="text-green-500 w-[100px] text-center text-sm sm:text-base font-medium bg-green-100 px-3 py-1 rounded-full">
               In stock
             </span>
           </div>
@@ -56,9 +56,8 @@ const ContactsHero = () => {
       className='w-full object-contain select-none'
     />
   </div>
-</div>
-
-    </div>
+  </div>
+  </div>
   );
 };
 

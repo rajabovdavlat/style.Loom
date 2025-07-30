@@ -50,6 +50,13 @@ import ProductImg3 from "./svg/ProductImg3.png"
 
 import Vector from "./svg/Vector.svg"
 
+// Contact img svg
+import ContactImg1 from "./svg/ContactImg1.svg"
+import ContactImg2 from "./svg/ContactImg2.svg"
+import ContactImg3 from "./svg/ContactImg3.svg"
+
+
+
 
 
 
@@ -101,6 +108,11 @@ export const svgs = {
 
   // Contacts bg img
   Vector,
+
+  // Contact img svg
+  ContactImg1,
+  ContactImg2,
+  ContactImg3,
 
 
 };

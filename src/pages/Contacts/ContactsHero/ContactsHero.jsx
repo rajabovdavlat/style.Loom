@@ -4,8 +4,8 @@ import { svgs } from '../../../assets/images/images';
 
 const ContactsHero = () => {
   return (
-    <div className="container py-10">
-      <div className="flex flex-col gap-6 sm:gap-10 md:flex-row justify-between items-start md:items-center">
+ <div className="container py-10">
+ <div className="flex flex-col gap-6 sm:gap-10 md:flex-row justify-between items-start md:items-center">
         {/* Left  */}
         <div>
           <h2 className="text-white font-semibold text-3xl sm:text-4xl md:text-6xl leading-tight select-none">
@@ -35,9 +35,9 @@ const ContactsHero = () => {
             Shop Now
           </button>
         </div>
-          </div>
+  </div>
           
-         <div className='flex flex-col lg:flex-row items-center gap-6'>
+  <div className='flex flex-col lg:flex-row items-center gap-6'>
   <img
     src={svgs.ProductImg}
     alt="Product"

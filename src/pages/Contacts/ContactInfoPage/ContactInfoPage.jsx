@@ -3,11 +3,11 @@ import { svgs } from '../../../assets/images/images'
 
 const ContactInfoPage = () => {
   return (
- <div className='container py-20'>
+ <div className='container '>
   <div>
      <h2 className='text-4xl sm:text-5xl md:text-6xl font-bold mb-1.1 text-center sm:3.3 md:5.5'>Contact Information</h2>
      </div>
- <div className="flex flex-col items-center gap-8 md:flex-row md:justify-center py-10">
+ <div className="flex flex-col items-center gap-3 sm:gap-10 md:gap-45 md:flex-row md:justify-center py-10">
  
   {/* Блок 1 */}
   <div className="flex flex-col items-center text-center gap-2 md:gap-4">
